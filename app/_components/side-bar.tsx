@@ -1,6 +1,8 @@
+"use client"
+
 import { BorderAll, Logout, Splitscreen, TaskAlt } from "@mui/icons-material";
 
-function SideBar() {
+export default function SideBar() {
   return (
     <div className="w-[97px] h-screen py-8 bg-slate-950 flex flex-col items-center justify-between border-r">
       <Logo />
@@ -31,5 +33,3 @@ function Menu() {
 function Profile() {
   return <div className="w-7 h-7 bg-blue-600 rounded-md"></div>;
 }
-
-export default SideBar();
