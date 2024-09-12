@@ -1,3 +1,4 @@
+import AllProjectsSection from "./_components/all-projects-section"
 import ProjectsHeader from "./_components/projects-header"
 import ProjectsSubHeader from "./_components/projects-sub-header"
 
@@ -11,9 +12,10 @@ export default function AllProjects() {
 
 function AllProjectsArea() {
   return (
-    <div className="w-[78%] p-10 flex flex-col gap-3 border-r">
+    <div className="w-[78%] p-10 flex flex-col gap-3">
       <ProjectsHeader />
       <ProjectsSubHeader />
+      <AllProjectsSection />
     </div>
   )
 }
